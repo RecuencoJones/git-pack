@@ -1,0 +1,13 @@
+{
+  "name": "git-pack",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm install && npm run build"
+  },
+  "devDependencies": {
+    "typescript": "3.9"
+  }
+}
