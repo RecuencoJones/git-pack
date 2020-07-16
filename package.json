@@ -5,7 +5,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepack": "npm install && npm run build"
+    "prepack": "npm install --only=dev && npm run build"
   },
   "devDependencies": {
     "typescript": "3.9"
